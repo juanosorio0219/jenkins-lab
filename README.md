@@ -11,16 +11,25 @@ Para ejecutar Docker Compose, asegúrate de que tengas Docker Compose instalado 
 ```bash
 docker-compose up -d
 ```
+<img width="562" alt="Screenshot 2024-04-25 at 8 25 58 PM" src="https://github.com/juanosorio0219/jenkins-lab/assets/80568091/abf3edd9-566c-432b-baee-ec99d2478827">
 
 3. Extraer passwords
 
 ```bash
 docker logs id_container
 ```
+<img width="564" alt="Screenshot 2024-04-25 at 8 27 32 PM" src="https://github.com/juanosorio0219/jenkins-lab/assets/80568091/2b94bd04-277c-480c-b5de-62e067239f83">
 
 ```bash
 docker exec id_container cat /var/jenkins_home/secrets/initialAdminPassword
 ```
+
+<img width="988" alt="Screenshot 2024-04-25 at 8 32 05 PM" src="https://github.com/juanosorio0219/jenkins-lab/assets/80568091/f438501e-b563-4cff-b7e9-75b009aa7817">
+
+## Instalamos los plugins
+<img width="990" alt="Screenshot 2024-04-25 at 8 35 03 PM" src="https://github.com/juanosorio0219/jenkins-lab/assets/80568091/8b2340d8-9f67-426d-ab89-8d8eb994d7a6">
+
+
 ## Creación del Item
 Escogemos un nombre y damos clic en Freestyle project
 <img width="987" alt="Screenshot 2024-04-25 at 7 30 45 PM" src="https://github.com/juanosorio0219/jenkins-lab/assets/80568091/a1961037-d269-4749-bf66-2e8fb71d823d">
