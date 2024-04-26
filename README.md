@@ -23,7 +23,8 @@ docker logs id_container
 ```bash
 docker exec id_container cat /var/jenkins_home/secrets/initialAdminPassword
 ```
-
+## Accedemos a Jenkins
+En este caso: `http://localhost:8080`
 <img width="988" alt="Screenshot 2024-04-25 at 8 32 05 PM" src="https://github.com/juanosorio0219/jenkins-lab/assets/80568091/f438501e-b563-4cff-b7e9-75b009aa7817">
 
 ## Instalamos los plugins
